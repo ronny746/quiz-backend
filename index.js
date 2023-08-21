@@ -17,3 +17,5 @@ mongoose.connect('mongodb+srv://rohit:rana@cluster0.btddseq.mongodb.net/quiz_das
 
 app.use("/api",userroute);
 app.use("/api",quizroute);
+
+module.exports = app
